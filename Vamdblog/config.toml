@@ -1,4 +1,4 @@
-baseURL = 'https://DBVamsi.github.io/'
+baseURL = 'https://dbvamsi.github.io/'
 languageCode = 'en-us'
 title = 'Bhaskar Vamsi ka Personal Blog'
-theme="hugo-PaperMod"
+theme="hugo-paper"
