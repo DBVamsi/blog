@@ -1,0 +1,4 @@
+baseURL = 'https://DBVamsi.github.io/'
+languageCode = 'en-us'
+title = 'Bhaskar Vamsi ka Personal Blog'
+theme="hugo-PaperMod"
