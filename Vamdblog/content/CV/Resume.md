@@ -1,3 +1,3 @@
 
 ## Resume
-{{< embed-pdf url=".content/Resume/CV/Resume.pdf" >}}
+{{< embed-pdf url=".content/resume/cv/resume.pdf" >}}
