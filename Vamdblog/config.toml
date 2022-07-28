@@ -1,6 +1,6 @@
 baseURL = 'https://dbvamsi.github.io/'
 languageCode = 'en-us'
-title = 'Bhaskar Vamsi ka Personal Blog'
+title = "Bhaskar Vamsi's Personal Blog"
 theme="Mainroad"
 author = "Bhaskar Vamsi Dontaraju"
 enableInlineShortcodes = true
