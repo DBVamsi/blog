@@ -2,6 +2,7 @@ baseURL = 'https://dbvamsi.github.io/'
 languageCode = 'en-us'
 title = 'Bhaskar Vamsi ka Personal Blog'
 theme="hugo-paper"
+author = "Bhaskar Vamsi Dontaraju"
 enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
 
@@ -25,6 +26,18 @@ ignoreErrors = ["error-remote-getjson"]
     name = "About"
     url = "/about/"
     weight = 10
+
+  [[menu.main]]
+    identifier = "Resume"
+    name = "Resume"
+    url = "/Resume/"
+    weight = 10
+
+   [[menu.main]]
+    identifier = "Contact"
+    name = "Contact"
+    url = "/Contact/"
+    weight = 10  
 
 [taxonomies]
 category = "categories"
