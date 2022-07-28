@@ -1,3 +1,0 @@
-+++
-author = "Bhaskar Vamsi Dontaraju"
-+++
