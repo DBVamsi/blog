@@ -53,4 +53,4 @@ Open API writing example:
 ***
 
 ~
- [My Hobbies](hobbies.html) \| [LinkedIn profile](https://www.linkedin.com/in/bvdontaraju/) \| [Recognition](bravo.html)  \|  [CV](/CV/Resume.pdf) ~
+ [My Hobbies](../hobbies/) \| [LinkedIn profile](https://www.linkedin.com/in/bvdontaraju/) \| [Recognition](../recognition/)  \|  [View as a PDF](/cv/resume.pdf) ~
