@@ -1,7 +1,7 @@
 baseURL = 'https://dbvamsi.github.io/'
 languageCode = 'en-us'
 title = 'Bhaskar Vamsi ka Personal Blog'
-theme="hugo-paper"
+theme="Mainroad"
 author = "Bhaskar Vamsi Dontaraju"
 enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
@@ -18,6 +18,25 @@ ignoreErrors = ["error-remote-getjson"]
     
     name = 'Bhaskar Vamsi Dontaraju'
     bio = 'Technical writer | Technology Enthusiast'
+
+[Params]
+  description = "Bhaskar Vamsi Dontaraju's Personal blog about everything" # Site description. Used in meta description
+  opengraph = true # Enable OpenGraph if true
+  #schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  #authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  #mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
 
 [menu]
 
@@ -58,3 +77,15 @@ series = "series"
   [privacy.youtube]
     disabled = false
     privacyEnhanced = true
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets.social]
+  github = "DBVamsi"
